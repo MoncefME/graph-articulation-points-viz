@@ -26,7 +26,6 @@ function DFS(graph, u, visited, disc, low, time, parent, isAP, children) {
   disc.set(u, time);
   low.set(u, time);
   time = time + 1;
-
   const adjList = graph.vertices.find((vv) => vv.number === u).adjacencyList;
   for (const v of adjList) {
     if (visited.get(v) === undefined) {

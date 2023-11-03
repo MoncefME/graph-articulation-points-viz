@@ -53,9 +53,8 @@ Articulation points, also known as cut vertices, are vertices in an undirected g
 
 <img width="948" alt="image" src="https://github.com/MoncefME/graph-articulation-points-viz/assets/77624873/e023bd77-9282-47cb-93b4-33ac271fb5f7">
 
-
 ## TODOs:
 
 - [ ] Fix the UI ( it looks ugly a little bit )
-- [ ] Turn into TS for max type safety and error handling 
-- [ ] add other features if possible like moving around the canvas when draging , zoom with mouse , setting to change the radius and colors 
+- [ ] Turn into TS for max type safety and error handling
+- [ ] add other features if possible like moving around the canvas when draging , zoom with mouse , setting to change the radius and colors

@@ -1,5 +1,5 @@
 let graph;
-let backgroundColor;
+//let backgroundColor;
 let mode = "V";
 let canvas;
 
@@ -13,7 +13,7 @@ function setup() {
 }
 
 function draw() {
-  background(backgroundColor);
+  background(color(245, 245, 220));
   graph.display();
 }
 
@@ -56,4 +56,8 @@ function mouseReleased() {
   for (const vertex of graph.vertices) {
     vertex.stopDrag();
   }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
