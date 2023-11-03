@@ -1,5 +1,4 @@
 let graph;
-//let backgroundColor;
 let mode = "V";
 let canvas;
 

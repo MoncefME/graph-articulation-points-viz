@@ -45,6 +45,7 @@ class Graph {
   }
 
   deleteVertex(vertexToDelete) {
+    if (vertexToDelete === undefined) return;
     const vertexIndex = this.vertices.indexOf(vertexToDelete);
 
     for (const vertex of this.vertices) {

@@ -10,7 +10,7 @@ class Vertex {
   }
 
   display() {
-    noStroke();
+    stroke("#000");
     if (this.selected) {
       stroke(255, 0, 0);
       strokeWeight(2);
@@ -29,7 +29,7 @@ class Vertex {
   }
 
   drag() {
-    if (this.isDragging && !this.contains(mouseX, mouseY)) {
+    if (this.isDragging) {
       this.position.x = mouseX;
       this.position.y = mouseY;
     }

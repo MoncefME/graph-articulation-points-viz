@@ -24,7 +24,6 @@ function addVertices() {
   document.body.style.cursor = "cell";
   mode = "V";
   resetSelection();
-  //backgroundColor = color(245, 245, 220);
 }
 
 function addEdges() {
@@ -33,7 +32,6 @@ function addEdges() {
   document.body.style.cursor = "copy";
   mode = "E";
   resetSelection();
-  // backgroundColor = color(173, 216, 230);
 }
 
 function deleteVertex() {
@@ -42,16 +40,14 @@ function deleteVertex() {
   document.body.style.cursor = "no-drop";
   mode = "D";
   resetSelection();
-  // backgroundColor = color(254, 194, 197);
 }
 
 function findArticulationPoints() {
   let hintText = select("#hint");
-  hintText.html("The articulation points are show in White");
+  hintText.html("The articulation points are shown in White");
   document.body.style.cursor = "pointer";
   mode = "S";
   getArticulationPoints(graph);
-  //backgroundColor = color(179, 230, 202);
 }
 
 function isInsideCanvas(x, y, canvas) {
