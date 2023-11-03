@@ -49,6 +49,7 @@ function findArticulationPoints() {
   let hintText = select("#hint");
   hintText.html("The articulation points are show in White");
   document.body.style.cursor = "pointer";
+  mode = "S";
   getArticulationPoints(graph);
   //backgroundColor = color(179, 230, 202);
 }

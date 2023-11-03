@@ -33,7 +33,7 @@ function mouseClicked() {
       }
     }
 
-    if (graph.selectedVertices.length === 2) {
+    if (graph.selectedVertices.length === 2 && mode === "E") {
       graph.addEdge(graph.selectedVertices[0], graph.selectedVertices[1]);
     }
 
