@@ -10,26 +10,32 @@ function setupButtons() {
   deleteVertexButton.mousePressed(deleteVertex);
 }
 
-function addVertices() {
-  mode = "V";
+function resetSelection() {
   graph.selectedVertices = [];
   for (const vertex of graph.vertices) {
     vertex.setSelected(false);
     vertex.setIsAP(false);
   }
+}
+
+function addVertices() {
+  mode = "V";
+  resetSelection();
   backgroundColor = color(245, 245, 220);
 }
 
 function addEdges() {
   mode = "E";
+  resetSelection();
   backgroundColor = color(173, 216, 230);
-}
-
-function findArticulationPoints() {
-  getArticulationPoints(graph);
 }
 
 function deleteVertex() {
   mode = "D";
+  resetSelection();
   backgroundColor = color(255, 120, 120);
+}
+
+function findArticulationPoints() {
+  getArticulationPoints(graph);
 }

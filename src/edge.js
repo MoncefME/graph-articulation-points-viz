@@ -6,11 +6,7 @@ class Edge {
   }
 
   display() {
-    if (!this.selected) {
-      stroke(0);
-    } else {
-      stroke(255, 0, 0);
-    }
+    stroke(this.selected ? (255, 0, 0) : 0);
     line(
       this.vertex1.position.x,
       this.vertex1.position.y,

@@ -19,8 +19,10 @@ class Graph {
     if (vertex1 !== vertex2) {
       const edge = new Edge(vertex1, vertex2);
       this.edges.push(edge);
+
       vertex1.adjacencyList.push(vertex2.number);
       vertex2.adjacencyList.push(vertex1.number);
+
       setTimeout(() => {
         vertex1.setSelected(false);
         vertex2.setSelected(false);

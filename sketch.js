@@ -18,7 +18,7 @@ function draw() {
 }
 
 function mouseClicked() {
-  if (mouseX >= 0 && mouseX <= width && mouseY >= 65 && mouseY <= height) {
+  if (mouseX >= 0 && mouseX <= width && mouseY >= 65 && mouseY <= height - 65) {
     const clickedVertex = graph.vertices.find((vertex) =>
       vertex.contains(mouseX, mouseY)
     );
