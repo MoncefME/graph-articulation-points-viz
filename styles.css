@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  canvas {
+    display: block;
+  }
+
+  main{
+    display: flex;
+
+  }
+.control-pannel{
+  padding: 0;
+  width: 100%;
+  height: 50px;
+  background-color: darkseagreen;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+button {
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+#add-vertex-btn {
+  background-color: #f5f5dc; 
+}
+#add-vertex-btn:hover {
+  background-color: #eeeec6;
+  transform: scale(1.05);
+}
+
+#delete-vertex-btn{
+  background-color: #c74d3d; 
+}
+
+#delete-vertex-btn:hover{
+  background-color:#ff1e00;
+  transform: scale(1.05);
+}
+
+#add-edge-btn {
+  background-color: #add8e6; 
+}
+#add-edge-btn:hover {
+  background-color: #a4d3e0;
+  transform: scale(1.05);
+}
+
+
+#find-ap-btn {
+  background-color: #800080; 
+  color: white;
+}
+#find-ap-btn:hover {
+  background-color: #6b006b;
+  transform: scale(1.05);
+}
+
