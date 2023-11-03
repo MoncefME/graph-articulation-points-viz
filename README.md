@@ -1,6 +1,7 @@
 # Graph Visualizer and Articulation Points Finder
 
-<img width="948" alt="image" src="https://github.com/MoncefME/graph-articulation-points-viz/assets/77624873/0befd5d2-a03d-48a9-9699-959efdf225a9">
+<img width="951" alt="image" src="https://github.com/MoncefME/graph-articulation-points-viz/assets/77624873/e6df65c4-b333-48dd-a243-7c20d5c4158f">
+
 
 This project aims to create a graph visualizer using [p5js.org](http://p5js.org) and to find the articulation points (also known as cut vertices) in an undirected graph. Articulation points are the vertices in a graph whose removal increases the number of connected components in the graph. They play a crucial role in the study of graph theory and network analysis.
 
@@ -51,10 +52,11 @@ Please note that this project is currently a work in progress, and some features
 
 Articulation points, also known as cut vertices, are vertices in an undirected graph whose removal increases the number of connected components in the graph. They have a significant impact on graph connectivity and are essential in various graph-related applications.
 
-<img width="948" alt="image" src="https://github.com/MoncefME/graph-articulation-points-viz/assets/77624873/e023bd77-9282-47cb-93b4-33ac271fb5f7">
+<img width="945" alt="image" src="https://github.com/MoncefME/graph-articulation-points-viz/assets/77624873/0f8ee5a6-421e-4919-914f-56b4efd874a5">
+
 
 ## TODOs:
 
-- [ ] Fix the UI ( it looks ugly a little bit )
+- [x] Fix the UI ( needs more enhancement) 
 - [ ] Turn into TS for max type safety and error handling
 - [ ] add other features if possible like moving around the canvas when draging , zoom with mouse , setting to change the radius and colors
