@@ -22,6 +22,7 @@ class Graph {
 
       vertex1.adjacencyList.push(vertex2.number);
       vertex2.adjacencyList.push(vertex1.number);
+      edge.setSelected(true);
 
       setTimeout(() => {
         vertex1.setSelected(false);
@@ -57,5 +58,9 @@ class Graph {
     this.edges = this.edges.filter((edge) => {
       return edge.vertex1 !== vertexToDelete && edge.vertex2 !== vertexToDelete;
     });
+  }
+
+  getClickedVertex() {
+    return this.vertices.find((vertex) => vertex.contains(mouseX, mouseY));
   }
 }

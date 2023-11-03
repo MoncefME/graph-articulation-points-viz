@@ -18,10 +18,8 @@ function draw() {
 }
 
 function mouseClicked() {
-  if (mouseX >= 0 && mouseX <= width && mouseY >= 65 && mouseY <= height - 65) {
-    const clickedVertex = graph.vertices.find((vertex) =>
-      vertex.contains(mouseX, mouseY)
-    );
+  if (isInsideCanvas(mouseX, mouseY, canvas)) {
+    const clickedVertex = graph.getClickedVertex();
 
     if (mode === "E") {
       if (clickedVertex != undefined) {
