@@ -1,6 +1,7 @@
 # Graph Visualizer and Articulation Points Finder
 
-<img width="949" alt="image" src="https://github.com/MoncefME/graph-articulation-points-viz/assets/77624873/bc7eb67c-0f2b-409c-9e3a-cc4da0f1d99b">
+<img width="953" alt="image" src="https://github.com/MoncefME/graph-articulation-points-viz/assets/77624873/5122057a-65fc-4962-97dc-590b017e429a">
+
 
 
 This project aims to create a graph visualizer using [p5js.org](http://p5js.org) and to find the articulation points (also known as cut vertices) in an undirected graph. Articulation points are the vertices in a graph whose removal increases the number of connected components in the graph. They play a crucial role in the study of graph theory and network analysis.
@@ -18,7 +19,7 @@ for the implementation I was inspired by :
 - [grafolio by Issam Djida 🫡](https://grapholio.djidax.com/)
 - [This amazing website 🥶](https://giggiox.github.io/graphTheory-Visualizer/)
 
-I'm using `JavaScript` which is not the best option when it comes to error handling and type sentetive compared to `Typescript`, I challenge you to try use `Typescript`
+I'm using `JavaScript` which is not the best option when it comes to error handling and type sentetive compared to `Typescript`, It would be better to use `Typescript`
 
 <img width="30" alt="image" src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.jpg" style="margin-right: 10px;">
 
@@ -52,12 +53,6 @@ Please note that this project is currently a work in progress, and some features
 
 Articulation points, also known as cut vertices, are vertices in an undirected graph whose removal increases the number of connected components in the graph. They have a significant impact on graph connectivity and are essential in various graph-related applications.
 
-<img width="954" alt="image" src="https://github.com/MoncefME/graph-articulation-points-viz/assets/77624873/6ff95ace-46b3-4d8b-a10f-fdf47756a449">
+<img width="949" alt="image" src="https://github.com/MoncefME/graph-articulation-points-viz/assets/77624873/eb00d2f8-5d3b-4309-892a-175863deb09b">
 
 
-## TODOs:
-
-- [x] Fix the UI ( needs more enhancement) 
-- [ ] Turn into TS for max type safety and error handling
-- [ ] add other features if possible like moving around the canvas when draging , zoom with mouse , setting to change the radius and colors
-- [ ] add the modal for the info , I want to make a small explication about how the articulation points are being calculated , and link to usefull ressouces like the ones mentionned before 
