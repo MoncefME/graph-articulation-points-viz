@@ -1,6 +1,6 @@
 # Graph Visualizer and Articulation Points Finder
 
-<img width="951" alt="image" src="https://github.com/MoncefME/graph-articulation-points-viz/assets/77624873/e6df65c4-b333-48dd-a243-7c20d5c4158f">
+<img width="949" alt="image" src="https://github.com/MoncefME/graph-articulation-points-viz/assets/77624873/bc7eb67c-0f2b-409c-9e3a-cc4da0f1d99b">
 
 
 This project aims to create a graph visualizer using [p5js.org](http://p5js.org) and to find the articulation points (also known as cut vertices) in an undirected graph. Articulation points are the vertices in a graph whose removal increases the number of connected components in the graph. They play a crucial role in the study of graph theory and network analysis.
@@ -52,7 +52,7 @@ Please note that this project is currently a work in progress, and some features
 
 Articulation points, also known as cut vertices, are vertices in an undirected graph whose removal increases the number of connected components in the graph. They have a significant impact on graph connectivity and are essential in various graph-related applications.
 
-<img width="945" alt="image" src="https://github.com/MoncefME/graph-articulation-points-viz/assets/77624873/0f8ee5a6-421e-4919-914f-56b4efd874a5">
+<img width="954" alt="image" src="https://github.com/MoncefME/graph-articulation-points-viz/assets/77624873/6ff95ace-46b3-4d8b-a10f-fdf47756a449">
 
 
 ## TODOs:
@@ -60,3 +60,4 @@ Articulation points, also known as cut vertices, are vertices in an undirected g
 - [x] Fix the UI ( needs more enhancement) 
 - [ ] Turn into TS for max type safety and error handling
 - [ ] add other features if possible like moving around the canvas when draging , zoom with mouse , setting to change the radius and colors
+- [ ] add the modal for the info , I want to make a small explication about how the articulation points are being calculated , and link to usefull ressouces like the ones mentionned before 
